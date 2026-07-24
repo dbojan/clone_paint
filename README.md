@@ -1,5 +1,5 @@
 # clone_paint
-2026-06-19-1
+2026-07-24-14-09-55
 
 Clone Paint — PyQt5 paint with a familiar interface
 
@@ -16,6 +16,8 @@ For jxl, if installed [qt-jpegxl-image-plugin](https://github.com/novomesk/qt-jp
 Probably works on Windows, too.
 
 changes:
+2026-07-24-14-09-55
+- added how to add 'open with Clone Paint' using xfce to readme.txt
 
 2026-06-19-1
 - added stamp tool
