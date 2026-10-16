@@ -5,6 +5,8 @@ Clone Paint — PyQt5 paint with a familiar interface
 
 ![alt text](screenshot.png)
 
+pip install -r requirements.txt
+
 requirements.txt:  
 ```
 PyQt5>=5.6  
@@ -12,17 +14,20 @@ pillow
 # JPEG XL Pillow fallback (used when the Qt JXL plugin is absent)  
 pillow-jxl-plugin  
 ```
-pip install -r requirements.txt
 
-For jxl, if installed [qt-jpegxl-image-plugin](https://github.com/novomesk/qt-jpegxl-image-plugin) will be used, otherwise pillow will convert image temporarily from and to jxl.
+For jxl, if installed [qt-jpegxl-image-plugin](https://github.com/novomesk/qt-jpegxl-image-plugin) will be used, otherwise pillow-jxl-plugin converts the image temporarily from and to jxl.
 
 For webp, if the Qt WebP plugin (qtimageformats qwebp) is installed it will be used, otherwise Pillow (built-in WebP support, no extra plugin) converts the image temporarily. 
 
 WebP and JPEG XL save by default losslessly, or at quality 90 if 'Save JPEG XL/WebP lossless' is off.
 
-
-
 Probably works on Windows, too.
+
+### features:
+
+- familiar interface
+- navigate all image files in directory using mouse or left and right arrow
+- webpy and jpegxl support (requires qtimageformats qwebp, or pillow and 
 
 ### changes:
 
