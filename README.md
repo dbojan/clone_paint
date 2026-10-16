@@ -5,6 +5,8 @@ Clone Paint — PyQt5 paint with a familiar interface
 
 ![alt text](screenshot.png)
 
+### how to install:
+
 pip install -r requirements.txt
 
 requirements.txt:  
@@ -27,7 +29,7 @@ Probably works on Windows, too.
 
 - familiar interface
 - navigate all image files in directory using mouse or left and right arrow
-- webpy and jpegxl support (requires qtimageformats qwebp, or pillow and 
+- webpy and jpegxl support (using plugins, see above)
 
 ### changes:
 
