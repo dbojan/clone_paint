@@ -3,6 +3,8 @@
 
 Clone Paint — PyQt5 paint with a familiar interface
 
+![alt text](screenshot.png)
+
 requirements.txt:  
 ```
 PyQt5>=5.6  
@@ -18,7 +20,7 @@ For webp, if the Qt WebP plugin (qtimageformats qwebp) is installed it will be u
 
 WebP and JPEG XL save by default losslessly, or at quality 90 if 'Save JPEG XL/WebP lossless' is off.
 
-![alt text](screenshot.png)
+
 
 Probably works on Windows, too.
 
