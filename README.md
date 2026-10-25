@@ -7,6 +7,17 @@ Written in PyQT, and using plugins.
 
 ![alt text](screenshot.png)
 
+### features:
+
+- familiar interface
+- (optional) auto save
+- navigate all image files in directory using mouse or left and right arrow
+- jpegxl, webp, avif, heif support (using plugins, see above)
+- save as pdf
+- create pdf using multiple columns or rows of images (booklet like)
+- recompress pdf (convert pages to image, compress, save as pdf, mostly for scanned images)
+- extract pages from multipage formats (pdf and multipage tiff)
+
 ### how to install:
 
 pip install -r requirements.txt
@@ -39,17 +50,6 @@ WebP and JPEG XL save by default losslessly, or at quality 90 if 'Save JPEG XL/W
 Avif and Heif are saved lossy.
 
 Probably works on Windows, too.
-
-### features:
-
-- familiar interface
-- (optional) auto save
-- navigate all image files in directory using mouse or left and right arrow
-- jpegxl, webp, avif, heif support (using plugins, see above)
-- save as pdf
-- create pdf using multiple columns or rows of images (booklet like)
-- recompress pdf (convert pages to image, compress, save as pdf, mostly for scanned images)
-- extract pages from multipage formats (pdf and multipage tiff)
 
 ### changes:
 
