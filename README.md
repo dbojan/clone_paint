@@ -1,5 +1,5 @@
 # clone_paint
-2026-10-25-14-06-03
+2026-11-03-15-06-14
 
 Clone Paint — Paint program with a familiar interface
 
@@ -52,6 +52,13 @@ Avif and Heif are saved lossy.
 Probably works on Windows, too.
 
 ### changes:
+
+2026-11-03-15-06-14
+- tiff fix, fallback to pillow
+- enabled save as option for tiff image type.
+- added alternating pattern to selection lines, and points
+- modified the way curve works.
+
 
 2026-10-25-14-06-03
 - text handling improved
